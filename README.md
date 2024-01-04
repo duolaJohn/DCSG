@@ -89,7 +89,7 @@ For MSMT17:
 CUDA_VISIBLE_DEVICE=0\
 python examples/test_aggregate.py \
 -d msmt17 --resume $PATH_FOR_MODEL
-
+```
 
 ## Acknowledgement
 Some parts of the code is borrowed from [SpCL](https://github.com/yxgeee/SpCL) and [PPLR](https://github.com/yoonkicho/PPLR)
