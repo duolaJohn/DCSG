@@ -11,9 +11,10 @@ note:Currently, we are publishing the baseline and the best weight files for tes
 git clone https://github.com/duolaJohn/DCSG.git
 cd DCSG
 python setup.py develop
+```
 
 ### Preparing Datasets
-```
+```shell
 cd examples && mkdir data
 ```
 
