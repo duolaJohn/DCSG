@@ -68,6 +68,7 @@ For MSMT17:
 CUDA_VISIBLE_DEVICE=0\
 python examples/test.py \
 -d msmt17 --resume $PATH_FOR_MODEL
+```
 
 ## Testing with aggregated features
 
