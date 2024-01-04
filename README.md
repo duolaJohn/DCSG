@@ -15,9 +15,10 @@ python setup.py develop
 ### Preparing Datasets
 ```shell
 cd examples && mkdir data
+```
 The directory should look like
 ```
-PPLR/examples/data
+examples/data
 ├── Market-1501-v15.09.15
 ├── DukeMTMC-reID
 └── MSMT17_V1
