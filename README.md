@@ -13,9 +13,10 @@ cd DCSG
 python setup.py develop
 
 ### Preparing Datasets
-```shell
+```
 cd examples && mkdir data
 ```
+
 The directory should look like
 ```
 examples/data
