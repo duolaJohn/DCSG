@@ -3,7 +3,7 @@
 We have stored the weight file of the experimental results on Google Cloud Platform:
 https://drive.google.com/drive/folders/1-YiIdaGYzXdT2_5Wm-0W21wLBkQZOM6r?usp=drive_link
 
-note:Currently, we are publishing the baseline and the best weight files for testing purposes. The innovative source code of the article will be made available after its acceptance.
+note:Currently, we are publishing the baseline and the best weight files for testing purposes. 
 
 ## Getting Started
 ### Installation
