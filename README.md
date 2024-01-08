@@ -26,6 +26,30 @@ examples/data
 └── MSMT17_V1
 ```
 
+### Training
+We utilize 2 GPUs for training and use 384x128 sized images for Market-1501 and DukeMTMC-reID.
+We utilize 4 GPUs for training and use 384x128 sized images for MSMT17.
+
+For Market-1501:
+```
+CUDA_VISIBLE_DEVICE=0,1 \
+python examples/usl.py \
+-d market1501 --logs-dir $PATH_FOR_LOGS
+```
+For DukeMTMC-reID:
+```
+CUDA_VISIBLE_DEVICE=0,1 \
+python examples/usl.py \
+-d duke --logs-dir $PATH_FOR_LOGS
+```
+
+For MSMT17:
+```
+CUDA_VISIBLE_DEVICE=0,1,2,3 \
+python examples/usl.py \
+-d msmt17 --logs-dir $PATH_FOR_LOGS
+```
+
 
 ## Testing 
 
